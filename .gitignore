@@ -1,0 +1,35 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+Obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+
+# IDE and user files
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Packages
+[Pp]ackages/manifest.json
+[Pp]ackages/packages-lock.json
+
+# Cache
+*.pidb.meta
+*.pdb
+*.mdb
+*.opendb
+
+# OS
+.DS_Store
+Thumbs.db
