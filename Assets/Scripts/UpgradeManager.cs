@@ -11,7 +11,8 @@ public class UpgradeManager : MonoBehaviour
 
     [Header("Références au Joueur")]
     public PlayerLevel playerLevel;
-    public AutoPistol playerWeapon;
+    // ▼▼▼ LA LIGNE CORRIGÉE ▼▼▼
+    public Cowboy playerCowboy; // On référence le script Cowboy au lieu de AutoPistol
     public BombDropper bombDropper;
 
     [Header("Prefabs d'Améliorations")]
@@ -66,7 +67,8 @@ public class UpgradeManager : MonoBehaviour
 
     void ActivateShotgun()
     {
-        if (playerWeapon != null) playerWeapon.EnableShotgun();
+        // ▼▼▼ LA LOGIQUE CORRIGÉE ▼▼▼
+        if (playerCowboy != null) playerCowboy.EnableShotgun(); // On appelle la fonction sur le script Cowboy
         shotgunButton.interactable = false;
         shotgunButton.GetComponentInChildren<TextMeshProUGUI>().text = "Fusil Acquis";
     }

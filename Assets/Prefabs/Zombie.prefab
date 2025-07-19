@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7836710659394181094}
   - component: {fileID: 7442854023629589186}
   - component: {fileID: 8016474061141668164}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Zombie
   m_TagString: Zombie
   m_Icon: {fileID: 0}
@@ -177,6 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   deathLootPrefab: {fileID: 6523360930581718785, guid: 4e073504a8d101045afc7f1e6682ee10, type: 3}
+  gameManager: {fileID: 0}
 --- !u!114 &8016474061141668164
 MonoBehaviour:
   m_ObjectHideFlags: 0

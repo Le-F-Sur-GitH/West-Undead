@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Zombie
+  - Xplosion
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Zombie
   - Water
   - UI
   - 
