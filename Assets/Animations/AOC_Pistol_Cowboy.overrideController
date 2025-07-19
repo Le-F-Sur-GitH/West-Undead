@@ -7,5 +7,9 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AOC_Pistol_Cowboy
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: 55aa42f3e8be3d647baf7a943e662a27, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 5c1579f5866745644add89dd9f290484, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 5c1579f5866745644add89dd9f290484, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: c707c27647f8f4645b6bb00e33939538, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: c707c27647f8f4645b6bb00e33939538, type: 3}
